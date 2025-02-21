@@ -1,0 +1,41 @@
+.container {
+    border-radius: 25px;
+}
+.container-1 {
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+
+}
+.title{
+    text-align: center;
+    font-size: 20px;
+}   
+
+.container > label {
+    font-size: 12px;
+}
+
+#Label {
+    font-size: 15px;
+    margin: 7px 0 7px 0;
+    font-weight: 500;
+}
+.jobTypes {
+    padding-left: 10px;
+}
+.jobTypes > li > label {
+    margin-left: 12px;
+}
+.container-1 > select {
+    padding: 5px 12px 0 8px;
+    border-radius: 8px;
+}
+.resetToDefault {
+    margin-top: 25px;
+    background-color: #0034D1;
+    color: aliceblue;
+}

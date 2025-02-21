@@ -1,0 +1,28 @@
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    width: 100%;
+}
+.logo {
+    font-size: 20px;
+    background-color: #0034D1;
+    color: aliceblue;
+    padding: 10px;
+    border-radius: 12px;
+}
+nav > ul {
+    display: flex;
+    justify-content: space-between;
+    flex: 0.5;
+}
+button{
+    margin-left: 12px;
+}
+.LogInButton {
+    background-color: #0034D1;
+    color: aliceblue;
+}
+.signUpButton {
+    border: 2px solid #0034D1;
+}
