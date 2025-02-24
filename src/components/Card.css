@@ -1,0 +1,37 @@
+.Card {
+    width: 470px;
+    height: 275px;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    border-radius: 20px;
+}
+
+
+.Card > .container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.cardTags {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    /* padding: 5px; */
+}
+.cardTags > li {
+    margin-left: 12px;
+    padding: 3px;
+    background-color: #EBEBEB;
+    color: #000000;
+    border-radius: 4px;
+}
+
+.icons > *{
+    align-self: center;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 30px;
+    padding: 5px;
+}

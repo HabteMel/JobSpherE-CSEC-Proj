@@ -1,20 +1,16 @@
-import './App.css'
-import Filter from './components/Filter'
-import NavBar from './components/NavBar'
-import SearchBar from './components/SearchBar'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import HomePage from './Pages/HomePage';
+import Form from './Pages/Form'
 
 function App() {
-  
-
   return (
-    <>
-     <NavBar />
-     <SearchBar />
-     <div className="main">
-        <Filter />
-     </div>
-    </>
-  )
+    <Router>
+      <Routes>
+        <Route path="/HomePage" element={<HomePage />}/>
+        <Route path="/FormValidation" element={<Form />}/>
+      </Routes>
+    </Router>
+  );
 }
 
-export default App
+export default App;
